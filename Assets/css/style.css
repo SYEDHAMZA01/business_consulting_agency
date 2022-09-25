@@ -174,7 +174,7 @@ nav .active{
 }
 
 #search-form {
-  height: 4em;
+  /* height: 4em; */
   border: 1px solid #999;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
@@ -191,8 +191,9 @@ nav .active{
 }
 
 #search-box input[type="text"] {
-  width: 90%;
-  padding: 20px;
+  width: 100%;
+  padding:10px;
+  padding-right: 70px;
   color: #333;
   outline: none;
   font-size: 1.4em;
@@ -202,9 +203,9 @@ nav .active{
   position: absolute;
   top: 0;
   right: 0;
-  height: 4.6em;
+  height: 100%;
   width: 60px;
-  font-size: 14px;
+  font-size: 25px;
   color: #fff;
   text-align: center;
   line-height: 42px;
@@ -1008,6 +1009,9 @@ h1 span{
   /* #hero{
     min-height: 800px;
   } */
+  .centered{
+    width: 92%;
+  }
 
   .hero-title h1 {
     font-size: 55px;
